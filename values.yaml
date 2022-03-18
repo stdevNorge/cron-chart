@@ -1,7 +1,7 @@
-replicaCount: 3
+replicaCount: 10
 
 image:
-  repository: eueueueue
+  repository: norgefajardo/test-k6:${CIRCLE_SHA1}
   pullPolicy: IfNotPresent
   tag: "latest"
 
