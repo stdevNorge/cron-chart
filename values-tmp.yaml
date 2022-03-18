@@ -3,7 +3,7 @@ replicaCount: ${replicas}
 image:
   repository: ${repository}
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: $tag
 
 imagePullSecrets: []
 nameOverride: ""
@@ -46,4 +46,4 @@ affinity: {}
 
 schedule: "${schedule}"
 
-project: "calle13"
+project: $project
