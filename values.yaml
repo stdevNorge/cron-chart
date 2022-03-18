@@ -1,7 +1,7 @@
-replicaCount: ${replicas}
+replicaCount: 10
 
 image:
-  repository: ${repository}
+  repository: 
   pullPolicy: IfNotPresent
   tag: "latest"
 
@@ -44,6 +44,6 @@ tolerations: []
 
 affinity: {}
 
-schedule: "${schedule}"
+schedule: ""
 
-project: "calle13"
+project: "Calle13"
