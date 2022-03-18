@@ -1,7 +1,7 @@
 replicaCount: 10
 
 image:
-  repository: 
+  repository: norgefajardo/test-k6:${CIRCLE_SHA1}
   pullPolicy: IfNotPresent
   tag: "latest"
 
@@ -44,6 +44,6 @@ tolerations: []
 
 affinity: {}
 
-schedule: ""
+schedule: "0 14 * * *"
 
-project: "Calle13"
+project: "calle13"
