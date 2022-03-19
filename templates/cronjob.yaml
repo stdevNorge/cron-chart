@@ -4,6 +4,7 @@ metadata:
   name: {{ .Values.project }}
 spec:
   schedule: "{{ .Values.schedule }}"
+  suspend: {{ .Values.suspend }}
   jobTemplate:
     spec:
       template:

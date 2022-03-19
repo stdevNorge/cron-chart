@@ -43,3 +43,5 @@ affinity: {}
 schedule: "0 15 * * *"
 
 project: "calle13"
+
+suspend: true
