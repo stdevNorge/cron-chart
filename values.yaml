@@ -1,9 +1,9 @@
 replicaCount: 5
 
 image:
-  repository: "norgefajardo/test-k6:9d6f8fa4f3760aab647596cf84a18789800706d3"
+  repository: "norgefajardo/test-k6"
   pullPolicy: Always
-  tag: ""
+  tag: "0370e87ce0d8a4bb039f6e03dc8c3ec6da14485a"
 
 imagePullSecrets: []
 nameOverride: ""
