@@ -1,9 +1,9 @@
 replicaCount: 5
 
 image:
-  repository: norgefajardo/test-k6:${CIRCLE_SHA1}
-  pullPolicy: IfNotPresent
-  tag: "latest"
+  repository: ""
+  pullPolicy: Always
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
