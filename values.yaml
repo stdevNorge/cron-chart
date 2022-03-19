@@ -1,7 +1,7 @@
 replicaCount: 5
 
 image:
-  repository: "norgefajardo/test-k6:"$CIRCLE_SHA1""
+  repository: "norgefajardo/test-k6:9d6f8fa4f3760aab647596cf84a18789800706d3"
   pullPolicy: Always
   tag: ""
 
